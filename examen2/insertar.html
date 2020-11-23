@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Document</title>
+	</head>
+	<body>		
+			<form method="POST" action="insertar.php">
+				<div class="form">
+					<h1>FORMULARIO</h1>
+					<div class="profesor">
+						<input type="number" name="codigo" placeholder="Ingrese código" required="" />
+					</div>
+					<div class="profesor">
+						<input type="text" name="nombre" placeholder="Ingrese nombre" required="" />
+					</div>
+					
+					<div class="profesor">
+						<input type="email" name="inicio" placeholder="Ingrese hora" required="" />
+					</div>
+					
+					<div class="profesor">
+						<select name="tipo" required>
+							<option></option>
+							<option value="n">NORMAL</option>
+							<option value="p">PREMIUN</option>
+						</select>
+					</div>
+
+					<input type="submit" name="submit" value="Guardar">
+					
+				</div>				
+			</form>
+			<a href="">Menu Principal</a>
+	</body>
+</html>
